@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+li {
+    margin: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+
+
+
+/* style organized in descending order */
+
+.header {
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    color: #F9FAF8
+}
+
+.hero {
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    background-color: #1f2937;;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.hero-left {
+    text-align: left;
+}
+
+.hero-left > h2 {
+    font: bolder 48px;
+    
+}
+
+.hero-right > img {
+    max-width: 100%;
+}
+
+.content {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}   
+
+.cards {
+    padding: 0px 100px 0px 100px;
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.card > img {
+    max-width: 80%;
+    max-height: 50%;
+    object-fit: cover;
+}
+
+.story {
+    padding: 100px 100px 100px 100px;
+    background-color: #e5e7eb;
+    flex: 1;
+}
+
+.action {
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    margin: 50px 200px 50px 200px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.action-left {
+    text-align: left;
+}
+
+
+
+.footer {
+
+}
