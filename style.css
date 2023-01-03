@@ -25,10 +25,11 @@ li {
 }
 
 .hero {
-    padding: 0px 100px 10px 100px;
+    padding: 0px 100px 40px 100px;
     display: flex;
     background-color: #1f2937;;
     align-items: center;
+    gap: 100px;
     color: #F9FAF8;
 }
 
@@ -55,32 +56,38 @@ li {
     font-weight: 18px;
 }
 
+.hero-right {
+    padding: 50px 200px 50px 200px;
+    background-color: gray;
+}
+
 .hero-right > img {
     max-width: 100%;
 }
 
 .content {
     margin: 0;
-    flex: 1;
     text-align: center;
     display: flex;
     flex-direction: column;
 }   
 
 .cards {
-    padding: 0px 100px 0px 100px;
+    padding: 40px 100px 40px 100px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 .card {
     text-align: center;
-    margin: 40px;
-    flex: 1 1 100%;
+    flex: 1 1 0px;
 }
 
-.card > img {
-    max-width: 80%;
+.card-img {
+    border: 5px solid #3882f6;
+    padding: 100px 0px 100px 0px;
+    border-radius: 10px;
 }
 
 .story {
@@ -98,7 +105,6 @@ li {
 }
 
 .action {
-    text-align: center;
     padding: 20px 100px 20px 100px;
     margin: 50px 200px 50px 200px;
     background-color: #3882f6;
@@ -126,4 +132,7 @@ li {
 
 .footer {
     padding: 20px 0px 20px 0px;
+    background-color: #1f2937;
+    color:#F9FAF8;
+
 }
